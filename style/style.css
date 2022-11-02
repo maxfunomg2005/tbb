@@ -16,10 +16,10 @@ ul {
 
 body {
      font-family: Montserrat;
-     background: orange;
+     background: #EFF5F5;
 }
 
-.title {jgfmkjfgit branch 
+.title {
      font-weight: 700;
      font-size: 30px;
      line-height: 37px;
@@ -430,7 +430,8 @@ body {
      border-radius: 10px;
 
 }
-.services-right{
+
+.services-right {
      width: 50%;
      height: 100%;
      display: flex;
@@ -438,7 +439,8 @@ body {
      flex-direction: column;
      row-gap: 42px;
 }
-.services-right__item{
+
+.services-right__item {
      width: 100%;
      height: 100%;
      border-radius: 10px;
@@ -446,12 +448,61 @@ body {
      align-items: center;
      justify-content: center;
      column-gap: 65px;
+     padding: 0 30px;
 }
-.services-right__item:nth-of-type(1){
-    background: #FFC1BD;
-    box-shadow: 0px 25px 30px -20px rgba(255, 193, 189, 0.5); 
+
+.services-right__item:nth-of-type(1) {
+     background: #FFC1BD;
+     box-shadow: 0px 25px 30px -20px rgba(255, 193, 189, 0.5);
 }
-.services-right__item:nth-of-type(2){
-  background: #C1B7FF; 
-  box-shadow: 0px 25px 30px -25px rgba(193, 183, 255, 0.4);  
+
+.services-right__item:nth-of-type(2) {
+     background: #C1B7FF;
+     box-shadow: 0px 25px 30px -25px rgba(193, 183, 255, 0.4);
+}
+
+.menu {
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 18px;
+     border: none;
+     background: transparent;
+     cursor: pointer;
+     display: none;
+     font-family: Montserrat;
+}
+.services__app{
+     display: flex;
+     justify-content: center;align-items: center;
+     gap:30px;
+}
+.services__link{
+     padding: 27px 0;
+     text-align: center;
+     max-width: 360px;
+     width: 100%;
+     background: #fff;
+     box-shadow: 0px 13px 20px -15px rgba(0, 71 ,184 , 0.49);
+     border-radius: 12px;
+}
+.services{
+     padding-bottom: 50px;
+}
+.footer__content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.footer{
+     padding-top: 50px;
+     padding-bottom: 21px;
+}
+.footer__text{
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     color:#626262 ;
+     width: 305px;
 }
